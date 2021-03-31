@@ -1,0 +1,15 @@
+.header{
+  height:40px;
+  /* padding:10px 0; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.menu{
+  margin-right: 36px;
+}
+
+.menu :hover{
+  cursor: pointer;
+}

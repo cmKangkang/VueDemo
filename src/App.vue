@@ -1,0 +1,29 @@
+<template>
+  <div id="app">
+    <Layouts></Layouts>
+  </div>
+</template>
+
+<script>
+import Layouts from './components/Layouts.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Layouts
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height:100%;
+  padding:2em;
+ 
+}
+</style>
